@@ -58,7 +58,7 @@ body {
 form {
     display: grid;
     grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(6, auto);
     row-gap: 5px;
     column-gap: 10px;
 }
