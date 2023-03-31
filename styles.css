@@ -1,4 +1,6 @@
-
+* {
+    border: none;
+}
 
 body {
     width:auto;
@@ -48,5 +50,25 @@ body {
     background-color: rgb(60, 49, 49);
     width: 100%;
     padding: 4rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+form {
     display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 5px;
+    column-gap: 10px;
+}
+
+label {
+    width: 150px;
+    text-align: right;
+    mar
+}
+
+textarea:focus, input:focus {
+    border: 3px solid rgb(35, 156, 35);
 }
