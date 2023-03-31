@@ -66,7 +66,22 @@ form {
 label {
     width: 150px;
     text-align: right;
-    mar
+    
+}
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+input:invalid {
+border-color: red;
+}
+  
+input:valid {
+border-color: green;
 }
 
 textarea:focus, input:focus {
