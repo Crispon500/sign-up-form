@@ -32,6 +32,7 @@
 
                 <label for="phone">Phone Number:</label>
                 <input type="tel" id="phone" name="phone"
+                maxlength="10" onblur="addDashes(this)"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
                 <label for="user_password">Password:</label>
@@ -41,6 +42,10 @@
                 <label for="confirm_password">Confirm Password:</label>
                 <input type="password" id="confirm_password" name="confirm_password" 
                 pattern="[0-9a-fA-F]{4,8}" required>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </div>
         <div>This is the footer</div>
