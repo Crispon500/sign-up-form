@@ -29,6 +29,10 @@ body {
     gap: 1rem;
 }
 
+.banner p {
+    margin-left: 1rem;
+}
+
 #banner-text {
     opacity: 100%;
     color: rgb(180, 177, 177);
