@@ -15,41 +15,43 @@
 
     </div>
     <div class="main-container">
-        <p>this is main</p>
+        <p>Do you want to disapoint porygon? Let him know that you are trying.</p>
+        <p>Sign up to let him know!</p>
         <div class="form-container">
             <form action="https://httpbin.org/post" method="post">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name"
-                    placeholder="John">
-
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name"
-                    placeholder="Smith">
-
-                <label for="user_email">Email Address:</label>
-                <input type="email" id="user_email" name="email" 
-                    placeholder="example@email.com">
-
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone"
-                    maxlength="10" onblur="addDashes(this)" 
-                    onfocus="removeDashes(this)" placeholder="123-456-7890"
-                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-
-                <label for="user_password">Password:</label>
-                <input type="password" id="user_password" name="password" 
-                    minlength="8" required>
-
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password" 
-                    minlength="8" required>
-
+                <div class="input-wrapper">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name"
+                        placeholder="John">
+    
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name"
+                        placeholder="Smith">
+    
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" 
+                        placeholder="example@email.com">
+    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone"
+                        maxlength="10" onblur="addDashes(this)" 
+                        onfocus="removeDashes(this)" placeholder="123-456-7890"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password" 
+                        minlength="8" required>
+    
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" 
+                        minlength="8" required>
+                </div>
                 <div>
                     <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
-        <div>This is the footer</div>
+        <p>Already have an account? <a href="./index.html">Log in</a></p>
     </div>
 </body>
 </html>

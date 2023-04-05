@@ -2,6 +2,11 @@
     border: none;
 }
 
+p{
+    color:greenyellow;
+    margin-left: 4rem;
+}
+
 body {
     width:auto;
     height: 100dvh;
@@ -55,7 +60,7 @@ body {
     align-items: center;
 }
 
-form {
+.input-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 150px);
     grid-template-rows: repeat(6, auto);
